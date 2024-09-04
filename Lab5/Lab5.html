@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Lab5.css" rel="stylesheet" />
+    <title>Candidate Form</title>
+  </head>
+  <body>
+    <div class="register">
+      <div class="reg_start">
+        <h1><b>Registration Form</b></h1>
+        <form id="Registration">
+          <div class="form_details">
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+            />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="123-456-7890"
+              required
+            />
+          </div>
+          <div class="check">
+            <h3>Submit Your Interests</h3>
+            <label><input type="checkbox" /> Web Development</label>
+            <label><input type="checkbox" /> Data Structures</label>
+            <label><input type="checkbox" /> Machine Learning</label>
+            <label><input type="checkbox" /> Robotics</label>
+          </div>
+          <div class="form_gender">
+            <h3>Enter Your Gender</h3>
+            <label
+              ><input type="radio" name="gender" value="Male" /> Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="Female" /> Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="Other" /> Other</label
+            >
+          </div>
+          <input id="_submit" type="button" value="Submit" class="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

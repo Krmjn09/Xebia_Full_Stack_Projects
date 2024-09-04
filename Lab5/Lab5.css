@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #766969;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.reg_start {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #4a3b3b;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.form_details input {
+  text-align: center;
+  height: 35px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.check,
+.form_gender {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.check h3,
+.form_gender h3 {
+  margin-bottom: 8px;
+}
+
+.check label,
+.form_gender label {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #644a4a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #7a5b5b;
+}
