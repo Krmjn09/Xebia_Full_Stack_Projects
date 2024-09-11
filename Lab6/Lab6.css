@@ -18,3 +18,55 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+}
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 1%;
+}
+nav ul li:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(54, 52, 52);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+section {
+  background-color: rgb(54, 52, 52);
+  color: white;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  text-align: center;
+}
+section h2 {
+  color: white;
+}
+section p {
+  color: white;
+}
+footer {
+  background-color: rgb(54, 52, 52);
+  color: white;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 0px;
+}
