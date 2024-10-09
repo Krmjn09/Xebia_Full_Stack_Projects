@@ -1,0 +1,27 @@
+/* styles.css */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.9em;
+}
+
+.info-message {
+  color: blue;
+  font-size: 0.9em;
+}
+
+#userData {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
